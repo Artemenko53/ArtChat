@@ -1,0 +1,72 @@
+.message-wrapper {
+  border: 2px solid #f1f1f1;
+  border-radius: 5px 5px 0px 0px;
+  padding: 20px;
+  height: 70vh;
+  overflow: auto;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 2px solid #f1f1f1;
+  display: flex;
+  gap: 20px;
+}
+
+.message .message-nickname {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.message .message-text {
+  font-size: 1rem;
+  color: #4b4b4b;
+}
+
+.send-messages-wrapper {
+  height: 15vh;
+  padding: 20px;
+  border: 2px solid #f1f1f1;
+  border-top: 0;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.send-messages-input {
+  width: 80%;
+  border: 2px solid #f1f1f1;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.send-messages-input:focus {
+  border-color: #4894ff96 !important;
+}
+
+.send-messages-button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #f1f1f1;
+  transition: all 0.2s;
+  border: 2px solid #fff;
+}
+
+.send-messages-button:hover {
+  background-color: #4894ff96;
+}
+
+.send-messages-button:focus {
+  transition: all 0.9s;
+  background-color: #4894ff;
+  border: 2px solid #4894ff96;
+  transform: rotate(360deg);
+}
+
+.message-logo {
+  border-radius: 44px;
+}
